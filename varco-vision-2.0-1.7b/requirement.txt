@@ -1,0 +1,14 @@
+# FastAPI 서버
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# 모델 관련
+torch>=2.0.0
+transformers>=4.36.0
+accelerate>=0.25.0
+pillow>=10.0.0
+
+# 유틸리티
+pydantic>=2.0.0
+requests>=2.31.0
