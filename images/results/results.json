@@ -1,0 +1,92 @@
+[
+  {
+    "image": "dahsboard1.png",
+    "success": true,
+    "odometer": "70045",
+    "inference_time": 7.600110171999404,
+    "output": "{\n    \"odometer_value\": \"70045\",\n    \"unit\": \"km\",\n    \"bounding_box\": [0.48, 0.42, 0.52, 0.44]\n}",
+    "num_tokens": 52,
+    "parsed": {
+      "odometer_value": "70045",
+      "unit": "km",
+      "bounding_box": [
+        0.48,
+        0.42,
+        0.52,
+        0.44
+      ]
+    }
+  },
+  {
+    "image": "dashboard2.png",
+    "success": true,
+    "odometer": "191",
+    "inference_time": 4.211374370002886,
+    "output": "{\n    \"odometer_value\": \"191\",\n    \"unit\": \"km\",\n    \"bounding_box\": [0.512, 0.37, 0.541, 0.42]\n}",
+    "num_tokens": 52,
+    "parsed": {
+      "odometer_value": "191",
+      "unit": "km",
+      "bounding_box": [
+        0.512,
+        0.37,
+        0.541,
+        0.42
+      ]
+    }
+  },
+  {
+    "image": "dashboard3.png",
+    "success": true,
+    "odometer": "428",
+    "inference_time": 3.022413749000407,
+    "output": "{\n    \"odometer_value\": \"428\",\n    \"unit\": \"km\",\n    \"bounding_box\": [0.43, 0.35, 0.46, 0.40]\n}",
+    "num_tokens": 50,
+    "parsed": {
+      "odometer_value": "428",
+      "unit": "km",
+      "bounding_box": [
+        0.43,
+        0.35,
+        0.46,
+        0.4
+      ]
+    }
+  },
+  {
+    "image": "dashboard4.png",
+    "success": true,
+    "odometer": "5001",
+    "inference_time": 2.9233525990021008,
+    "output": "{\n    \"odometer_value\": \"5001\",\n    \"unit\": \"km\",\n    \"bounding_box\": [0.48, 0.59, 0.52, 0.63]\n}",
+    "num_tokens": 51,
+    "parsed": {
+      "odometer_value": "5001",
+      "unit": "km",
+      "bounding_box": [
+        0.48,
+        0.59,
+        0.52,
+        0.63
+      ]
+    }
+  },
+  {
+    "image": "dashboard5.png",
+    "success": true,
+    "odometer": "78993",
+    "inference_time": 3.1872510840003088,
+    "output": "{\n    \"odometer_value\": \"78993\",\n    \"unit\": \"km\",\n    \"bounding_box\": [0.512, 0.523, 0.541, 0.55]\n}",
+    "num_tokens": 55,
+    "parsed": {
+      "odometer_value": "78993",
+      "unit": "km",
+      "bounding_box": [
+        0.512,
+        0.523,
+        0.541,
+        0.55
+      ]
+    }
+  }
+]
