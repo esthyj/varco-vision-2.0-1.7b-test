@@ -5,7 +5,7 @@
   ✅ dashboard4.png: 5061<br>
   ✅ dashboard5.png: 78593<br>
 
-### prompt1
+## prompt1
     prompt = textwrap.dedent("""
     이 자동차 계기판 이미지에서 총 주행거리(ODO/주행적산계)를 찾아주세요.
 
@@ -26,16 +26,16 @@
     """).strip()
 
 ##### 📋 개별 결과:
-  ✅ dahsboard1.png: 70045
-  ❌ dashboard2.png: 191 (위치인식오류 - 주행가능거리를 읽음)
-  ❌ dashboard3.png: 428 (위치인식오류 - 주행가능거리를 읽음)
-  ❌ dashboard4.png: 166.9 (위치인식오류 - 트립미터를 읽음)
-  ❌ dashboard5.png: 78993 (OCR 성능문제)
+  ✅ dahsboard1.png: 70045<br>
+  ❌ dashboard2.png: 191 (위치인식오류 - 주행가능거리를 읽음)<br>
+  ❌ dashboard3.png: 428 (위치인식오류 - 주행가능거리를 읽음)<br>
+  ❌ dashboard4.png: 166.9 (위치인식오류 - 트립미터를 읽음)<br>
+  ❌ dashboard5.png: 78993 (OCR 성능문제)<br>
 
 **이때부터는 Varco-vision-2.0-1.7b의 VLM으로 세가지 거리를 구분하기에는 어렵다고 생각이 들었음.**
 **계기판에 보통 총 주행거리가 가장 아래에 적혀있던데, 가장 아래에 있는 거리를 인식할 수 있는지 테스트 함.**
 
-### prompt2
+## prompt2
     prompt = textwrap.dedent("""
     이 자동차 계기판 이미지에서 총 주행거리(ODO)를 찾아주세요.
 
@@ -62,14 +62,14 @@
     """).strip()
 
 ##### 📋 개별 결과:
-  ❌ dahsboard1.png: 45230 (Parroting - LLM에 45230이 있음)
-  ✅ dashboard2.png: 181 
-  ❌ dashboard3.png: 45230 (Parroting - LLM에 45230이 있음)
-  ❌ dashboard4.png: 5001 (OCR 성능문제)
-  ❌ dashboard5.png: None (미출력)
+  ❌ dahsboard1.png: 45230 (Parroting - LLM에 45230이 있음)<br>
+  ✅ dashboard2.png: 181<br>
+  ❌ dashboard3.png: 45230 (Parroting - LLM에 45230이 있음)<br>
+  ❌ dashboard4.png: 5001 (OCR 성능문제)<br>
+  ❌ dashboard5.png: None (미출력)<br>
 
 
-  ### prompt 3
+  ## prompt 3
     prompt = textwrap.dedent("""
     이 자동차 계기판에서 총 주행거리(ODO)를 찾아주세요.
 
@@ -85,8 +85,8 @@
     """).strip()
 
 ##### 📋 개별 결과:
-  ✅ dahsboard1.png: 70045 
-  ❌ dashboard2.png: 191 (위치인식오류 - 주행가능거리를 읽음)
-  ❌ dashboard3.png: 428 (위치인식오류 - 주행가능거리를 읽음)
-  ❌ dashboard4.png: 5001 (OCR 성능문제)
-  ❌ dashboard5.png: 78993 (OCR 성능문제)
+  ✅ dahsboard1.png: 70045<br>
+  ❌ dashboard2.png: 191 (위치인식오류 - 주행가능거리를 읽음)<br>
+  ❌ dashboard3.png: 428 (위치인식오류 - 주행가능거리를 읽음)<br>
+  ❌ dashboard4.png: 5001 (OCR 성능문제)<br>
+  ❌ dashboard5.png: 78993 (OCR 성능문제)<br>
